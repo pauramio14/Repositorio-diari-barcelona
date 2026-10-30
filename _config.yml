@@ -20,7 +20,7 @@ author: David Merino Recalde
 # Enlace a la hoja de metadatos publicada como CSV
 # (en Google Sheets: Archivo > Compartir > Publicar en la web > Hoja completa, formato CSV).
 # Debe acabar en output=csv. Hasta que se cambie, la web muestra la colección de ejemplo.
-metadata-csv: https://docs.google.com/spreadsheets/d/e/2PACX-1vQynGPTD1wk04y2qhT_YQO_vh28IMX-8VwFIDxUqUAhZBc4R2ul73_bgT7Tio78_0rkniMF95WvPWtq/pub?output=csv
+metadata-csv: https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0JceMCd5tUu0-t8eE_22Hgbl2k6kCU0XkeYsjmWMW3EOedrTFTqmS24XUsrQ5ARoCbsZoNq2kF9YU/pub?output=csv
 
 # Imagen de la cabecera de la portada: el objectid de uno de los objetos de la colección
 featured-image: pellicer-lecciones-1630
