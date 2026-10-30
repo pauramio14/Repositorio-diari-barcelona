@@ -1,0 +1,70 @@
+##########
+# DATOS DE LA COLECCIÓN
+#
+# Esto es lo único que hay que editar en este archivo. Cada cambio tarda uno o dos minutos
+# en verse en la web, el tiempo que GitHub Pages necesita para reconstruirla.
+# Los valores con dos puntos, comas o comillas van entre comillas dobles.
+
+# Título de la colección: aparece en la cabecera de la portada, en el pie y en la pestaña del navegador
+title: Portadas y encabezamientos de impresos hispánicos
+
+# Subtítulo breve bajo el título de la portada; puede dejarse vacío
+tagline: Colección de ejemplo para el Máster en Humanidades y Patrimonio Digitales (UAB)
+
+# Descripción de una o dos frases: aparece en la portada y en el pie, y la leen los buscadores
+description: "Portadas y títulos de cabecera de ediciones antiguas en castellano, reunidos a partir de bibliotecas digitales enlazadas en Europeana, con sus metadatos y sus transcripciones."
+
+# Autoría: nombres de quienes hacen la colección
+author: David Merino Recalde
+
+# Enlace a la hoja de metadatos publicada como CSV
+# (en Google Sheets: Archivo > Compartir > Publicar en la web > Hoja completa, formato CSV).
+# Debe acabar en output=csv. Hasta que se cambie, la web muestra la colección de ejemplo.
+metadata-csv: https://docs.google.com/spreadsheets/d/e/2PACX-1vQynGPTD1wk04y2qhT_YQO_vh28IMX-8VwFIDxUqUAhZBc4R2ul73_bgT7Tio78_0rkniMF95WvPWtq/pub?output=csv
+
+# Imagen de la cabecera de la portada: el objectid de uno de los objetos de la colección
+featured-image: pellicer-lecciones-1630
+
+# true añade a la portada un recuadro con los autores más frecuentes de la colección
+home-creators: false
+
+# Aspecto visual: nombre de un tema de Bootswatch (https://bootswatch.com).
+# Algunos que funcionan bien: flatly, lux, journal, sandstone, litera. Vacío para el aspecto básico.
+bootswatch: lux
+
+# Colores propios, que se aplican sobre el tema anterior. En hexadecimal y entre comillas, por ejemplo
+# "#2f3b33" (se pueden elegir en https://htmlcolorcodes.com). Vacíos ("") o con solo "#", se mantienen
+# los del tema.
+# Menú superior, pie y franja del título en la portada
+color-menu: "#"
+# Enlaces, botones y etiquetas de materias
+color-acento: "#A8A8A8"
+# Fondo de las páginas
+color-fondo: "#"
+
+# Enlace al repositorio de la colección en GitHub
+source-code: https://github.com/dxvidmr/cb-sheets-masterhd-uab
+
+
+##########
+# OPCIONES TÉCNICAS: no hace falta tocarlas
+#
+# url y baseurl solo hacen falta fuera de GitHub Pages
+#url: https://usuario.github.io
+#baseurl: /nombre-del-repositorio
+
+# Logo de una institución en la cabecera (opcional)
+# organization-name: ""
+# organization-link:
+# organization-logo-banner:
+# organization-logo-nav:
+
+# noindex: true impide que los buscadores indexen la web
+# noindex: true
+
+# development-mode: true añade a la cabecera los botones para recargar o cambiar el CSV
+development-mode: false
+lib-assets: /assets/lib
+exclude: [docs/, _coleccion/, Rakefile, README.md, LICENSE]
+sass:
+  style: compressed
